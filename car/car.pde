@@ -13,7 +13,8 @@ void draw() {
   car2 = car2 + velocity;
 
   background(1, 32, 77);
-
+fill(random(0,255),random(0,255),0);
+ellipse(random(0,500),random(0,310), 5,5);
 
 //Moon
   fill(255,255,0);
